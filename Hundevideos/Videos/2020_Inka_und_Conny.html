@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="Hundevideos WebApp">
+<title>2020_Inka_und_Conny</title>
+
+<link rel="stylesheet" href="../style.css">
+<link rel="manifest" href="../manifest.json">
+
+<link rel="apple-touch-icon" sizes="180x180" href="../icon-180.png">
+<link rel="apple-touch-icon" sizes="152x152" href="../icon-152.png">
+<link rel="apple-touch-icon" sizes="120x120" href="../icon-120.png">
+<link rel="apple-touch-icon" sizes="76x76" href="../icon-76.png">
+
+<link rel="icon" type="image/png" sizes="32x32" href="../favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../favicon-16.png">
+
+</head>
+<body>
+
+<div class="header-bar video-page">
+  <a href="../index.html">← Übersicht</a>
+  <div class="title">2020_Inka_und_Conny</div>
+  <noscript>
+    <span style="color: #cc0000; font-size: 0.7em; font-weight: bold; border: 1px solid #cc0000; padding: 2px 5px; border-radius: 4px; margin-left: 5px; white-space: nowrap;">
+      ⚠️ Java Script inaktiv: Steuerung/Ton mglw. limitiert
+    </span>
+  </noscript>
+  
+  <a class="spa-link" href="2020_Inka_und_Conny_thumbs.html" title="Galerie oben">🖼</a><a class="spa-link" href="2020_Inka_und_Conny_thumbs.html" title="Galerie Position wie Video">Bilder</a>
+  <a href="../index.html#2020_Inka_und_Conny">↺ Zurück zum Video</a>
+</div>
+
+<div id="video-wrapper">
+    <video id="player" controls playsinline loop poster="2020_Inka_und_Conny.jpg" data-timeline='{"0.000":"FiDuGr_iPhSE_2553","5.000":"FiDuLg_iPhSE_2549","10.000":"GqEjUh_iPhSE_6086","15.000":"GqEjVa_iPhSE_6087","20.000":"GqEkAf_iPhSE_6089","25.000":"GqEkAl_iPhSE_6090","30.000":"GqEsNr_iPhSE_6091","35.000":"GqEsQi_iPhSE_6093","40.000":"GqEuMt_iPhSE_6095","45.000":"GqEuNa_iPhSE_6096","50.000":"GqRqHq_iPhSE_2752","55.000":"GqRqOz_iPhSE_6103","60.000":"GqRqSr_iPhSE_6106","65.000":"GqRqSv_iPhSE_6107","70.000":"GqRqTd_iPhSE_6109","75.000":"GqRqUe_iPhSE_6111"}' data-timeline-chapters='{"0.000":"FiDuGr_iPhSE_2553"}'>
+        <source src="2020_Inka_und_Conny.mp4" type="video/mp4">
+    </video>
+
+    <button id="toggle-chapters" title="Kapitel anzeigen (verschiebbar)">
+        <svg viewBox="0 0 24 24"><path d="M3 13h2v-2H3v2zm0 4h2v-2H3v2zm0-8h2V7H3v2zm4 4h14v-2H7v2zm0 4h14v-2H7v2zM7 7v2h14V7H7z"/></svg>
+    </button>
+
+    <nav id="chapter-nav" class="hidden"></nav>
+</div>
+
+<div id="thumbs-overlay">
+    <button id="close-overlay" title="Galerie schließen">&times;</button>
+    <div id="thumbs-content-target"></div>
+</div>
+
+<script src="../video.js"></script>
+
+</body>
+</html>

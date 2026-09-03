@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="Impressionen WebApp">
+<title>1980_08_St_Mang</title>
+
+<link rel="stylesheet" href="../style.css">
+<link rel="manifest" href="../manifest.json">
+
+<link rel="apple-touch-icon" sizes="180x180" href="../icon-180.png">
+<link rel="apple-touch-icon" sizes="152x152" href="../icon-152.png">
+<link rel="apple-touch-icon" sizes="120x120" href="../icon-120.png">
+<link rel="apple-touch-icon" sizes="76x76" href="../icon-76.png">
+
+<link rel="icon" type="image/png" sizes="32x32" href="../favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../favicon-16.png">
+
+</head>
+<body>
+
+<div class="header-bar video-page">
+  <a href="../index.html">← Übersicht</a>
+  <div class="title">1980_08_St_Mang</div>
+  <noscript>
+    <span style="color: #cc0000; font-size: 0.7em; font-weight: bold; border: 1px solid #cc0000; padding: 2px 5px; border-radius: 4px; margin-left: 5px; white-space: nowrap;">
+      ⚠️ Java Script inaktiv: Steuerung/Ton mglw. limitiert
+    </span>
+  </noscript>
+  
+  <a class="spa-link" href="1980_08_St_Mang_thumbs.html" title="Galerie oben">🖼</a><a class="spa-link" href="1980_08_St_Mang_thumbs.html" title="Galerie Position wie Video">Bilder</a>
+  <a href="../index.html#1980_08_St_Mang">↺ Zurück zum Video</a>
+</div>
+
+<div id="video-wrapper">
+    <video id="player" controls playsinline loop poster="1980_08_St_Mang.jpg" data-timeline='{"0.000":"aaa_IMG_4826","5.000":"IMG_4800","10.000":"IMG_4801","15.000":"IMG_4802","20.000":"IMG_4803","25.000":"IMG_4804","30.000":"IMG_4805","35.000":"IMG_4806","40.000":"IMG_4807","45.000":"IMG_4808","50.000":"IMG_4809","55.000":"IMG_4810","60.000":"IMG_4811","65.000":"IMG_4812","70.000":"IMG_4813","75.000":"IMG_4814","80.000":"IMG_4815","85.000":"IMG_4816","90.000":"IMG_4817","95.000":"IMG_4818","100.000":"IMG_4819","105.000":"IMG_4820","110.000":"IMG_4821","115.000":"IMG_4822","120.000":"IMG_4823","125.000":"IMG_4824","130.000":"IMG_4825","135.000":"IMG_4826","140.000":"IMG_4827","145.000":"IMG_4828","150.000":"IMG_4829","155.000":"IMG_4830","160.000":"IMG_4831","165.000":"IMG_4832","170.000":"IMG_4833","175.000":"IMG_4834","180.000":"IMG_4835","185.000":"IMG_4836","190.000":"IMG_4837"}' data-timeline-chapters='{"0.000":"aaa_IMG_4826"}'>
+        <source src="1980_08_St_Mang.mp4" type="video/mp4">
+    </video>
+
+    <button id="toggle-chapters" title="Kapitel anzeigen (verschiebbar)">
+        <svg viewBox="0 0 24 24"><path d="M3 13h2v-2H3v2zm0 4h2v-2H3v2zm0-8h2V7H3v2zm4 4h14v-2H7v2zm0 4h14v-2H7v2zM7 7v2h14V7H7z"/></svg>
+    </button>
+
+    <nav id="chapter-nav" class="hidden"></nav>
+</div>
+
+<div id="thumbs-overlay">
+    <button id="close-overlay" title="Galerie schließen">&times;</button>
+    <div id="thumbs-content-target"></div>
+</div>
+
+<script src="../video.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="Impressionen WebApp">
+<title>2023_06ff_Sonntagmorgenrunden</title>
+
+<link rel="stylesheet" href="../style.css">
+<link rel="manifest" href="../manifest.json">
+
+<link rel="apple-touch-icon" sizes="180x180" href="../icon-180.png">
+<link rel="apple-touch-icon" sizes="152x152" href="../icon-152.png">
+<link rel="apple-touch-icon" sizes="120x120" href="../icon-120.png">
+<link rel="apple-touch-icon" sizes="76x76" href="../icon-76.png">
+
+<link rel="icon" type="image/png" sizes="32x32" href="../favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../favicon-16.png">
+
+</head>
+<body>
+
+<div class="header-bar video-page">
+  <a href="../index.html">← Übersicht</a>
+  <div class="title">2023_06ff_Sonntagmorgenrunden</div>
+  <noscript>
+    <span style="color: #cc0000; font-size: 0.7em; font-weight: bold; border: 1px solid #cc0000; padding: 2px 5px; border-radius: 4px; margin-left: 5px; white-space: nowrap;">
+      ⚠️ Java Script inaktiv: Steuerung/Ton mglw. limitiert
+    </span>
+  </noscript>
+  
+  <a class="spa-link" href="2023_06ff_Sonntagmorgenrunden_thumbs.html" title="Galerie oben">🖼</a><a class="spa-link" href="2023_06ff_Sonntagmorgenrunden_thumbs.html" title="Galerie Position wie Video">Bilder</a>
+  <a href="../index.html#2023_06ff_Sonntagmorgenrunden">↺ Zurück zum Video</a>
+</div>
+
+<div id="video-wrapper">
+    <video id="player" controls playsinline loop poster="2023_06ff_Sonntagmorgenrunden.jpg" data-timeline='{"0.000":"000_OxXfV_M50_2961","5.000":"OxUwO_M50_2924","10.000":"OxVaN_M50_2926","15.000":"OxVhG_M50_2935","20.000":"OxViE_M50_2936","25.000":"OxViS_M50_2937","30.000":"OxVnF_M50_2940","35.000":"OxVnZ_M50_2942","40.000":"OxVxG_M50_2944","45.000":"OxVxP_M50_2945","50.000":"OxVyW_M50_2948","55.000":"OxWjC_M50_2950","60.000":"OxWkX_M50_2952","65.000":"OxWmK_M50_2953","70.000":"OxWnX_M50_2955","75.000":"OxWqF_M50_2957","80.000":"OxXfV_M50_2961","85.000":"OxXjV_M50_2963","90.000":"RoQhC_M50_2965","95.000":"RoQiE_M50_2966","100.000":"RoQsH_M50_2968","105.000":"RoRbB_M50_2972","110.000":"RoRmD_M50_2979","115.000":"RoRqA_M50_2981","120.000":"RoRtN_M50_2983","125.000":"RoSbP_M50_2988","130.000":"RoSdS_M50_2990","135.000":"RoTcL_M50_2995","140.000":"RoTxK_M50_2998","145.000":"RoUgX_M50_3001"}' data-timeline-chapters='{"0.000":"000_OxXfV_M50_2961"}'>
+        <source src="2023_06ff_Sonntagmorgenrunden.mp4" type="video/mp4">
+    </video>
+
+    <button id="toggle-chapters" title="Kapitel anzeigen (verschiebbar)">
+        <svg viewBox="0 0 24 24"><path d="M3 13h2v-2H3v2zm0 4h2v-2H3v2zm0-8h2V7H3v2zm4 4h14v-2H7v2zm0 4h14v-2H7v2zM7 7v2h14V7H7z"/></svg>
+    </button>
+
+    <nav id="chapter-nav" class="hidden"></nav>
+</div>
+
+<div id="thumbs-overlay">
+    <button id="close-overlay" title="Galerie schließen">&times;</button>
+    <div id="thumbs-content-target"></div>
+</div>
+
+<script src="../video.js"></script>
+
+</body>
+</html>

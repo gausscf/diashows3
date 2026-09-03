@@ -1,0 +1,55 @@
+###Input_File	Marker	keep_Audio	Start_formatiert	Ende_formatiert	Start_(sek.)	Ende_(sek.)	Länge_(sek.)	Beschreibung	Ort	Lokation	DateTime	AddToStart	1.0
+2015-04-23-11-33-54.jpg		no	0:00	0:05	0.000	5.000	5.000						
+2015-04-23-11-35-54.jpg		no	0:05	0:10	5.000	10.000	5.000						
+2015-04-23-21-33-54.jpg		no	0:10	0:15	10.000	15.000	5.000						
+2015-05-26-11-31-52.jpg		no	0:15	0:20	15.000	20.000	5.000						
+2015-05-26-11-32-48.jpg		no	0:20	0:25	20.000	25.000	5.000						
+2015-05-26-18-46-58.jpg		no	0:25	0:30	25.000	30.000	5.000						
+2015-05-29-15-51-02.jpg		no	0:30	0:35	30.000	35.000	5.000				29.5.15 (Fr) 15:51		
+2015-09-20-19-45-38.jpg		no	0:35	0:40	35.000	40.000	5.000	Gemütlicher Abend an der Kollnbergmühle bei Fürstenstein (Passau)	Landkreis Deggendorf	Plattling			
+2015-09-20-20-22-49.jpg		no	0:40	0:45	40.000	45.000	5.000	Gemütlicher Abend an der Kollnbergmühle bei Fürstenstein (Passau)	Landkreis Deggendorf	Plattling			
+2015-09-22-09-27-10.jpg		no	0:45	0:50	45.000	50.000	5.000	Gemütlicher Morgen an der Kollnbergmühle bei Fürstenstein (Passau)	Landkreis Passau	Fürstenstein			
+2015-09-30-11-14-50.jpg		no	0:50	0:55	50.000	55.000	5.000	Spaziergang am Neckar in der Nähe von Bad Wimpfen	Bad Wimpfen	Heinsheim			
+2015-10-26-14-54-07.jpg		no	0:55	1:00	55.000	60.000	5.000	Mittagspause im Luxemburger Land	Park Hosingen	Holzthum			
+2016-04-02-12-37-37.jpg		no	1:00	1:05	60.000	65.000	5.000						
+2016-05-10-21-00-48.jpg		no	1:05	1:10	65.000	70.000	5.000	Abendspaziergang am Hülltofter Tief beim Nolde-Museum in Seebüll	Niebüll	Seebüll			
+2016-05-23-16-29-11.jpg		no	1:10	1:15	70.000	75.000	5.000	Am Kinda-Kanal in Südschweden	Linköping	Hamra			
+2016-05-30-07-11-05.jpg		no	1:15	1:20	75.000	80.000	5.000	Am Tolken-See in Südwestschweden	Tolken-See	Kammarholmen			
+2016-08-27-12-53-28.jpg		no	1:20	1:25	80.000	85.000	5.000				27.8.16 (Sa) 12:53		
+2016-12-01-15-36-43.jpg		no	1:25	1:30	85.000	90.000	5.000				1.12.16 (Do) 15:36		
+2017-04-24-07-32-44.jpg		no	1:30	1:35	90.000	95.000	5.000	Morgenspaziergang an der Donau nahe Matting bei Regensburg	Pentling	Matting			
+2017-05-06-09-15-06.jpg		no	1:35	1:40	95.000	100.000	5.000	Janos an Schloss Ellwangen	Ostalbkreis	Ellwangen			
+2017-05-13-10-23-55.jpg		no	1:40	1:45	100.000	105.000	5.000	Im Friedwald Elm bei Königslutter	Helmstedt	Königslutter			
+2017-11-04-08-54-47.jpg		no	1:45	1:50	105.000	110.000	5.000	Mülhauseen	Petit-Landau				
+2017-11-04-08-55-36-1.jpg		no	1:50	1:55	110.000	115.000	5.000	Morgenspaziergang am Rhein-Rhone-Kanal nahe Petit-Landau (östlich Mühlhausen)	Mülhausen	Petit-Landau			
+2017-12-29-14-51-31.jpg		no	1:55	2:00	115.000	120.000	5.000						
+2018-02-10-14-44-18.jpg		no	2:00	2:05	120.000	125.000	5.000						
+2018-02-18-09-00-30-1.jpg		no	2:05	2:10	125.000	130.000	5.000			2018:02:18 09:00:30			
+2018-04-23-12-03-53.jpg		no	2:10	2:15	130.000	135.000	5.000	Saint-Claude	La Pesse				
+2018-05-23-15-17-39.jpg		no	2:15	2:20	135.000	140.000	5.000	Landunvez	Tremazan				
+2018-05-24-10-26-05.jpg		no	2:20	2:25	140.000	145.000	5.000	Landunvez	Kerhoazoc				
+2018-05-24-16-18-56.jpg		no	2:25	2:30	145.000	150.000	5.000	Janos an der Nordwestküste der Bretagne bei Kerhoazoc	Landunvez	Kerhoazoc			
+2018-05-24-16-20-24.jpg		no	2:30	2:35	150.000	155.000	5.000	Janos an der Nordwestküste der Bretagne bei Kerhoazoc	Landunvez	Kerhoazoc			
+2018-05-24-16-49-28.jpg		no	2:35	2:40	155.000	160.000	5.000	Landunvez	Saint-Samson				
+2018-05-26-10-51-44.jpg		no	2:40	2:45	160.000	165.000	5.000	Janos an der Nordwestküste der Bretagne am Pointe de Landunvez	Landunvez	Kerhoazoc			
+2018-11-17-14-28-17.jpg		no	2:45	2:50	165.000	170.000	5.000	Janos auf dem Gelben Berg bei Gunzenhausen	Gunzenhausen	Dittenheim			
+2018-11-17-14-34-31.jpg		no	2:50	2:55	170.000	175.000	5.000	Janos auf dem Gelben Berg bei Gunzenhausen	Gunzenhausen	Dittenheim			
+2018-11-17-14-34-41.jpg		no	2:55	3:00	175.000	180.000	5.000	Janos auf dem Gelben Berg bei Gunzenhausen	Gunzenhausen	Dittenheim			
+2018-12-25-17-56-27.jpg		no	3:00	3:05	180.000	185.000	5.000			2018:12:25 17:56:27			
+2019-01-19-14-37-03.jpg		no	3:05	3:10	185.000	190.000	5.000			2019:01:19 14:37:03			
+2019-03-24-12-14-20.jpg		no	3:10	3:15	190.000	195.000	5.000						
+2019-05-05-10-21-01.jpg		no	3:15	3:20	195.000	200.000	5.000	Rast auf dem Morgenspaziergang am Doubs bei Laissey	Laissey				
+2019-05-07-18-36-52.jpg		no	3:20	3:25	200.000	205.000	5.000	Abends in Tournus	Tournus				
+2019-05-24-09-30-29.jpg		no	3:25	3:30	205.000	210.000	5.000	Im Stadtpark von Brazey-en-Plaine südlich von Djion	Brazey-en-Plaine				
+2019-05-26-09-36-47.jpg		no	3:30	3:35	210.000	215.000	5.000	Im Skistadion Les Tuffes nahe Les Rousses im Jura	Les Rousses				
+2019-10-02-09-52-45.jpg		no	3:35	3:40	215.000	220.000	5.000						
+2019-10-13-16-58-34.jpg		no	3:40	3:45	220.000	225.000	5.000	Janos am Kanal von Roanne nach Digoin	Brionnais	Artaix			
+2019-11-24-07-37-29.jpg		no	3:45	3:50	225.000	230.000	5.000						
+2020-06-05-16-24-45.jpg		no	3:50	3:55	230.000	235.000	5.000	Spaziergang auf dem gelben Berg bei Heidenheim südlich von Treuchlingen	Heidenheim	Gelber Berg			
+2020-09-28-15-36-39.jpg		no	3:55	4:00	235.000	240.000	5.000	Blick ins obere Altmühltal nordöstlich von Schillingsfürst	Schillingsfürst	Altengreuth			
+2020-10-02-14-52-55.jpg		no	4:00	4:05	240.000	245.000	5.000	Blick auf Mönchberg nördlich von Miltenberg am Main	Mönchberg				
+2021-01-11-08-37-09.jpg		no	4:05	4:10	245.000	250.000	5.000						
+2021-10-24-08-35-31.jpg		no	4:10	4:15	250.000	255.000	5.000	Sonntagmorgen in Neuhaus am Inn	Neuhaus am Inn				
+2022-05-27-15-58-32.jpg		no	4:15	4:20	255.000	260.000	5.000						
+2022-10-06-08-09-17.jpg		no	4:20	4:25	260.000	265.000	5.000						
+Janos-Abschied-Original.jpg		no	4:25	4:30	265.000	270.000	5.000	Janos an der Nordwestküste der Bretagne bei Kerhoazoc	Landunvez	Kerhoazoc	24.5.18 (Do) 16:18		

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="Hundevideos WebApp">
+<title>2004_Ronny</title>
+
+<link rel="stylesheet" href="../style.css">
+<link rel="manifest" href="../manifest.json">
+
+<link rel="apple-touch-icon" sizes="180x180" href="../icon-180.png">
+<link rel="apple-touch-icon" sizes="152x152" href="../icon-152.png">
+<link rel="apple-touch-icon" sizes="120x120" href="../icon-120.png">
+<link rel="apple-touch-icon" sizes="76x76" href="../icon-76.png">
+
+<link rel="icon" type="image/png" sizes="32x32" href="../favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../favicon-16.png">
+
+</head>
+<body>
+
+<div class="header-bar video-page">
+  <a href="../index.html">← Übersicht</a>
+  <div class="title">2004_Ronny</div>
+  <noscript>
+    <span style="color: #cc0000; font-size: 0.7em; font-weight: bold; border: 1px solid #cc0000; padding: 2px 5px; border-radius: 4px; margin-left: 5px; white-space: nowrap;">
+      ⚠️ Java Script inaktiv: Steuerung/Ton mglw. limitiert
+    </span>
+  </noscript>
+  
+  <a class="spa-link" href="2004_Ronny_thumbs.html" title="Galerie oben">🖼</a><a class="spa-link" href="2004_Ronny_thumbs.html" title="Galerie Position wie Video">Bilder</a>
+  <a href="../index.html#2004_Ronny">↺ Zurück zum Video</a>
+</div>
+
+<div id="video-wrapper">
+    <video id="player" controls playsinline loop poster="2004_Ronny.jpg" data-timeline='{"0.000":"aaa_LjFtEp_Nikon_0036","5.000":"HvEbZd_Nikon_0006","10.000":"HvEbZd_Nikon_0007","15.000":"HvEbZd_Unbek_0019","20.000":"HvEbZd_Unbek_0038","25.000":"HvEbZd_Unbek_0039","30.000":"HvEbZd_Unbek_0040","35.000":"HvEbZd_Unbek_0042","40.000":"HvEbZd_Unbek_0045","45.000":"HvEbZd_Unbek_0046","50.000":"HvEbZd_Unbek_0047","55.000":"HvEbZd_Unbek_0048","60.000":"HvEbZd_Unbek_0051","65.000":"HvEbZd_Unbek_0052","70.000":"HvEbZd_Unbek_0053","75.000":"HvEbZd_Unbek_0058","80.000":"HvEdNx_Unbek_0049","85.000":"HvEhBa_Unbek_0041","90.000":"HvEhBa_Unbek_0043","95.000":"HvEhBu_Unbek_0050","100.000":"HvHpNw_Unbek_0057","105.000":"LeSlXv_Nikon_0035","110.000":"LeSlZb_Nikon_0037","115.000":"LjFtEp_Nikon_0020","120.000":"LjFtEp_Nikon_0036","125.000":"LwYwPd_Nikon_0021","130.000":"LwYwPi_Nikon_0022","135.000":"LwYwQq_Nikon_1644","140.000":"LzIjSu_Nikon_0023","145.000":"LzIjTg_Nikon_1657","150.000":"LzIjTu_Nikon_1658","155.000":"MyYaJj_Nikon_0026","160.000":"MyYaKa_Nikon_0027","165.000":"NqPtOq_Nikon_0018","170.000":"NzKwVb_Nikon_0030","175.000":"NzKwWd_Nikon_0031","180.000":"NzKwWs_Nikon_0032","185.000":"NzKwXh_Nikon_0033","190.000":"NzKxBu_Nikon_0034","195.000":"OfDdJb_Nikon_0001","200.000":"OfDdJx_Nikon_0002","205.000":"OfEtSd_Nikon_0003","210.000":"OfEtTi_Nikon_0004","215.000":"OfEtUl_Nikon_0005","220.000":"OsOqOs_Nikon_0009","225.000":"OsOqPn_Nikon_0010","230.000":"OsOqWo_Nikon_0013","235.000":"OsOrFq_Nikon_0016","240.000":"OsOrRi_Nikon_0017"}' data-timeline-chapters='{"0.000":"aaa_LjFtEp_Nikon_0036"}'>
+        <source src="2004_Ronny.mp4" type="video/mp4">
+    </video>
+
+    <button id="toggle-chapters" title="Kapitel anzeigen (verschiebbar)">
+        <svg viewBox="0 0 24 24"><path d="M3 13h2v-2H3v2zm0 4h2v-2H3v2zm0-8h2V7H3v2zm4 4h14v-2H7v2zm0 4h14v-2H7v2zM7 7v2h14V7H7z"/></svg>
+    </button>
+
+    <nav id="chapter-nav" class="hidden"></nav>
+</div>
+
+<div id="thumbs-overlay">
+    <button id="close-overlay" title="Galerie schließen">&times;</button>
+    <div id="thumbs-content-target"></div>
+</div>
+
+<script src="../video.js"></script>
+
+</body>
+</html>

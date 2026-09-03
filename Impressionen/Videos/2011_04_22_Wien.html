@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="Impressionen WebApp">
+<title>2011_04_22_Wien</title>
+
+<link rel="stylesheet" href="../style.css">
+<link rel="manifest" href="../manifest.json">
+
+<link rel="apple-touch-icon" sizes="180x180" href="../icon-180.png">
+<link rel="apple-touch-icon" sizes="152x152" href="../icon-152.png">
+<link rel="apple-touch-icon" sizes="120x120" href="../icon-120.png">
+<link rel="apple-touch-icon" sizes="76x76" href="../icon-76.png">
+
+<link rel="icon" type="image/png" sizes="32x32" href="../favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../favicon-16.png">
+
+</head>
+<body>
+
+<div class="header-bar video-page">
+  <a href="../index.html">← Übersicht</a>
+  <div class="title">2011_04_22_Wien</div>
+  <noscript>
+    <span style="color: #cc0000; font-size: 0.7em; font-weight: bold; border: 1px solid #cc0000; padding: 2px 5px; border-radius: 4px; margin-left: 5px; white-space: nowrap;">
+      ⚠️ Java Script inaktiv: Steuerung/Ton mglw. limitiert
+    </span>
+  </noscript>
+  
+  <a class="spa-link" href="2011_04_22_Wien_thumbs.html" title="Galerie oben">🖼</a><a class="spa-link" href="2011_04_22_Wien_thumbs.html" title="Galerie Position wie Video">Bilder</a>
+  <a href="../index.html#2011_04_22_Wien">↺ Zurück zum Video</a>
+</div>
+
+<div id="video-wrapper">
+    <video id="player" controls playsinline loop poster="2011_04_22_Wien.jpg" data-timeline='{"0.000":"aaa_IMG_5915","5.000":"IMG_5790","10.000":"IMG_5791","15.000":"IMG_5795","20.000":"IMG_5798","25.000":"IMG_5801","30.000":"IMG_5802","35.000":"IMG_5803","40.000":"IMG_5805","45.000":"IMG_5806","50.000":"IMG_5807","55.000":"IMG_5810","60.000":"IMG_5811","65.000":"IMG_5814","70.000":"IMG_5818","75.000":"IMG_5824","80.000":"IMG_5828","85.000":"IMG_5832","90.000":"IMG_5835","95.000":"IMG_5836","100.000":"IMG_5837","105.000":"IMG_5838","110.000":"IMG_5840","115.000":"IMG_5842","120.000":"IMG_5843","125.000":"IMG_5847","130.000":"IMG_5849","135.000":"IMG_5851","140.000":"IMG_5852","145.000":"IMG_5853","150.000":"IMG_5857","155.000":"IMG_5860","160.000":"IMG_5861","165.000":"IMG_5864","170.000":"IMG_5867","175.000":"IMG_5869","180.000":"IMG_5871","185.000":"IMG_5873","190.000":"IMG_5875","195.000":"IMG_5876","200.000":"IMG_5880","205.000":"IMG_5884","210.000":"IMG_5885","215.000":"IMG_5887","220.000":"IMG_5889","225.000":"IMG_5890","230.000":"IMG_5891","235.000":"IMG_5892","240.000":"IMG_5893","245.000":"IMG_5895","250.000":"IMG_5897","255.000":"IMG_5898","260.000":"IMG_5899","265.000":"IMG_5902","270.000":"IMG_5904","275.000":"IMG_5905","280.000":"IMG_5908","285.000":"IMG_5910","290.000":"IMG_5912","295.000":"IMG_5914","300.000":"IMG_5915","305.000":"IMG_5916","310.000":"IMG_5917","315.000":"IMG_5918","320.000":"IMG_5920","325.000":"IMG_5921"}' data-timeline-chapters='{"0.000":"aaa_IMG_5915"}'>
+        <source src="2011_04_22_Wien.mp4" type="video/mp4">
+    </video>
+
+    <button id="toggle-chapters" title="Kapitel anzeigen (verschiebbar)">
+        <svg viewBox="0 0 24 24"><path d="M3 13h2v-2H3v2zm0 4h2v-2H3v2zm0-8h2V7H3v2zm4 4h14v-2H7v2zm0 4h14v-2H7v2zM7 7v2h14V7H7z"/></svg>
+    </button>
+
+    <nav id="chapter-nav" class="hidden"></nav>
+</div>
+
+<div id="thumbs-overlay">
+    <button id="close-overlay" title="Galerie schließen">&times;</button>
+    <div id="thumbs-content-target"></div>
+</div>
+
+<script src="../video.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="Impressionen WebApp">
+<title>2020_06ff_Sonntagmorgenrunden</title>
+
+<link rel="stylesheet" href="../style.css">
+<link rel="manifest" href="../manifest.json">
+
+<link rel="apple-touch-icon" sizes="180x180" href="../icon-180.png">
+<link rel="apple-touch-icon" sizes="152x152" href="../icon-152.png">
+<link rel="apple-touch-icon" sizes="120x120" href="../icon-120.png">
+<link rel="apple-touch-icon" sizes="76x76" href="../icon-76.png">
+
+<link rel="icon" type="image/png" sizes="32x32" href="../favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../favicon-16.png">
+
+</head>
+<body>
+
+<div class="header-bar video-page">
+  <a href="../index.html">← Übersicht</a>
+  <div class="title">2020_06ff_Sonntagmorgenrunden</div>
+  <noscript>
+    <span style="color: #cc0000; font-size: 0.7em; font-weight: bold; border: 1px solid #cc0000; padding: 2px 5px; border-radius: 4px; margin-left: 5px; white-space: nowrap;">
+      ⚠️ Java Script inaktiv: Steuerung/Ton mglw. limitiert
+    </span>
+  </noscript>
+  
+  <a class="spa-link" href="2020_06ff_Sonntagmorgenrunden_thumbs.html" title="Galerie oben">🖼</a><a class="spa-link" href="2020_06ff_Sonntagmorgenrunden_thumbs.html" title="Galerie Position wie Video">Bilder</a>
+  <a href="../index.html#2020_06ff_Sonntagmorgenrunden">↺ Zurück zum Video</a>
+</div>
+
+<div id="video-wrapper">
+    <video id="player" controls playsinline loop poster="2020_06ff_Sonntagmorgenrunden.jpg" data-timeline='{"0.000":"000_GtHvBg_E400_6448","5.000":"GpDiSm_iPhSE_2741","48.510":"GpDjGt_E400_6353","53.510":"GpDjLm_E400_6359","58.510":"GpDjNq_E400_6362","63.510":"GpDjPk_E400_6364","68.510":"GpDlRl_E400_6368","73.510":"GpDlZs_E400_6373","78.510":"GpDmAm_E400_6376","83.510":"GpDnHu_iPhSE_2742","88.510":"GpDnXv_E400_6380","93.510":"GpDqZa_iPhSE_2743","98.510":"GqQxNz_E400_6383","103.510":"GqQxPe_E400_6385","108.510":"GqQzIc_E400_6387","113.510":"GrZcMn_E400_6390","118.510":"GrZdNu_E400_6401","123.510":"GrZfQc_E400_6402","128.510":"GrZfSg_E400_6404","133.510":"GrZfSz_E400_6405","138.510":"GrZhXw_E400_6413","143.510":"GrZhYp_E400_6416","148.510":"GrZiAv_E400_6422","153.510":"GtHoWd_E400_6434","158.510":"GtHpAq_E400_6435","163.510":"GtHpQv_E400_6437","168.510":"GtHpUh_E400_6438","173.510":"GtHrFo_E400_6443","178.510":"GtHrHd_E400_6444","183.510":"GtHrRw_E400_6445","188.510":"GtHvBg_E400_6448","193.510":"GtHvBv_E400_6449","198.510":"GtHvFg_E400_6452","203.510":"GxGwPw_E400_6510","208.510":"GxGwYg_E400_6517","213.510":"GxHaZs_E400_6522","218.510":"GxHbEo_E400_6530","223.510":"GxHbFa_E400_6531","228.510":"GxHbSy_E400_6550","233.510":"GxHbTa_E400_6552","238.510":"GxHbVy_E400_6553","243.510":"GxHbWl_E400_6554","248.510":"GxHcMd_E400_6557","253.510":"HqAeZz_iPhSE_2857","289.315":"HqAhId_iPhSE_2858","314.392":"HqAhNo_iPhSE_2859"}' data-timeline-chapters='{"0.000":"000_GtHvBg_E400_6448"}'>
+        <source src="2020_06ff_Sonntagmorgenrunden.mp4" type="video/mp4">
+    </video>
+
+    <button id="toggle-chapters" title="Kapitel anzeigen (verschiebbar)">
+        <svg viewBox="0 0 24 24"><path d="M3 13h2v-2H3v2zm0 4h2v-2H3v2zm0-8h2V7H3v2zm4 4h14v-2H7v2zm0 4h14v-2H7v2zM7 7v2h14V7H7z"/></svg>
+    </button>
+
+    <nav id="chapter-nav" class="hidden"></nav>
+</div>
+
+<div id="thumbs-overlay">
+    <button id="close-overlay" title="Galerie schließen">&times;</button>
+    <div id="thumbs-content-target"></div>
+</div>
+
+<script src="../video.js"></script>
+
+</body>
+</html>

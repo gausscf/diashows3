@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="Impressionen WebApp">
+<title>2006_02_Winter</title>
+
+<link rel="stylesheet" href="../style.css">
+<link rel="manifest" href="../manifest.json">
+
+<link rel="apple-touch-icon" sizes="180x180" href="../icon-180.png">
+<link rel="apple-touch-icon" sizes="152x152" href="../icon-152.png">
+<link rel="apple-touch-icon" sizes="120x120" href="../icon-120.png">
+<link rel="apple-touch-icon" sizes="76x76" href="../icon-76.png">
+
+<link rel="icon" type="image/png" sizes="32x32" href="../favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../favicon-16.png">
+
+</head>
+<body>
+
+<div class="header-bar video-page">
+  <a href="../index.html">← Übersicht</a>
+  <div class="title">2006_02_Winter</div>
+  <noscript>
+    <span style="color: #cc0000; font-size: 0.7em; font-weight: bold; border: 1px solid #cc0000; padding: 2px 5px; border-radius: 4px; margin-left: 5px; white-space: nowrap;">
+      ⚠️ Java Script inaktiv: Steuerung/Ton mglw. limitiert
+    </span>
+  </noscript>
+  
+  <a class="spa-link" href="2006_02_Winter_thumbs.html" title="Galerie oben">🖼</a><a class="spa-link" href="2006_02_Winter_thumbs.html" title="Galerie Position wie Video">Bilder</a>
+  <a href="../index.html#2006_02_Winter">↺ Zurück zum Video</a>
+</div>
+
+<div id="video-wrapper">
+    <video id="player" controls playsinline loop poster="2006_02_Winter.jpg" data-timeline='{"0.000":"aaa_DSC_0012","5.000":"DSC_0002","10.000":"DSC_0003","15.000":"DSC_0004","20.000":"DSC_0005","25.000":"DSC_0006","30.000":"DSC_0007","35.000":"DSC_0009","40.000":"DSC_0011","45.000":"DSC_0012","50.000":"DSC_0014","55.000":"DSC_0015","60.000":"DSC_0016","65.000":"DSC_0017","70.000":"DSC_0018","75.000":"DSC_0019","80.000":"DSC_0024","85.000":"DSC_0025","90.000":"DSC_0026","95.000":"DSC_0027","100.000":"DSC_0028","105.000":"DSC_0029","110.000":"DSC_0030","115.000":"DSC_0037","120.000":"DSC_0039","125.000":"DSC_0040","130.000":"IMG_0033","135.000":"IMG_0034","140.000":"IMG_0035","145.000":"IMG_0036"}' data-timeline-chapters='{"0.000":"aaa_DSC_0012"}'>
+        <source src="2006_02_Winter.mp4" type="video/mp4">
+    </video>
+
+    <button id="toggle-chapters" title="Kapitel anzeigen (verschiebbar)">
+        <svg viewBox="0 0 24 24"><path d="M3 13h2v-2H3v2zm0 4h2v-2H3v2zm0-8h2V7H3v2zm4 4h14v-2H7v2zm0 4h14v-2H7v2zM7 7v2h14V7H7z"/></svg>
+    </button>
+
+    <nav id="chapter-nav" class="hidden"></nav>
+</div>
+
+<div id="thumbs-overlay">
+    <button id="close-overlay" title="Galerie schließen">&times;</button>
+    <div id="thumbs-content-target"></div>
+</div>
+
+<script src="../video.js"></script>
+
+</body>
+</html>

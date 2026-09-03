@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="Hundevideos WebApp">
+<title>2013_04_01_Spaziergang</title>
+
+<link rel="stylesheet" href="../style.css">
+<link rel="manifest" href="../manifest.json">
+
+<link rel="apple-touch-icon" sizes="180x180" href="../icon-180.png">
+<link rel="apple-touch-icon" sizes="152x152" href="../icon-152.png">
+<link rel="apple-touch-icon" sizes="120x120" href="../icon-120.png">
+<link rel="apple-touch-icon" sizes="76x76" href="../icon-76.png">
+
+<link rel="icon" type="image/png" sizes="32x32" href="../favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../favicon-16.png">
+
+</head>
+<body>
+
+<div class="header-bar video-page">
+  <a href="../index.html">← Übersicht</a>
+  <div class="title">2013_04_01_Spaziergang</div>
+  <noscript>
+    <span style="color: #cc0000; font-size: 0.7em; font-weight: bold; border: 1px solid #cc0000; padding: 2px 5px; border-radius: 4px; margin-left: 5px; white-space: nowrap;">
+      ⚠️ Java Script inaktiv: Steuerung/Ton mglw. limitiert
+    </span>
+  </noscript>
+  
+  <a class="spa-link" href="2013_04_01_Spaziergang_thumbs.html" title="Galerie oben">🖼</a><a class="spa-link" href="2013_04_01_Spaziergang_thumbs.html" title="Galerie Position wie Video">Bilder</a>
+  <a href="../index.html#2013_04_01_Spaziergang">↺ Zurück zum Video</a>
+</div>
+
+<div id="video-wrapper">
+    <video id="player" controls playsinline loop poster="2013_04_01_Spaziergang.jpg" data-timeline='{"0.000":"aaa_E400_01_1036","5.000":"E400_01_0986","10.000":"E400_01_0988","15.000":"E400_01_0991","20.000":"E400_01_0994","25.000":"E400_01_0996","30.000":"E400_01_0998","35.000":"E400_01_1000","40.000":"E400_01_1002","45.000":"E400_01_1004","50.000":"E400_01_1008","55.000":"E400_01_1011","60.000":"E400_01_1014","65.000":"E400_01_1016","70.000":"E400_01_1018","75.000":"E400_01_1022","80.000":"E400_01_1023","85.000":"E400_01_1025","90.000":"E400_01_1030","95.000":"E400_01_1035","100.000":"E400_01_1036"}' data-timeline-chapters='{"0.000":"aaa_E400_01_1036"}'>
+        <source src="2013_04_01_Spaziergang.mp4" type="video/mp4">
+    </video>
+
+    <button id="toggle-chapters" title="Kapitel anzeigen (verschiebbar)">
+        <svg viewBox="0 0 24 24"><path d="M3 13h2v-2H3v2zm0 4h2v-2H3v2zm0-8h2V7H3v2zm4 4h14v-2H7v2zm0 4h14v-2H7v2zM7 7v2h14V7H7z"/></svg>
+    </button>
+
+    <nav id="chapter-nav" class="hidden"></nav>
+</div>
+
+<div id="thumbs-overlay">
+    <button id="close-overlay" title="Galerie schließen">&times;</button>
+    <div id="thumbs-content-target"></div>
+</div>
+
+<script src="../video.js"></script>
+
+</body>
+</html>

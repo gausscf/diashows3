@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="Hundevideos WebApp">
+<title>2022_Janos_Best_of</title>
+
+<link rel="stylesheet" href="../style.css">
+<link rel="manifest" href="../manifest.json">
+
+<link rel="apple-touch-icon" sizes="180x180" href="../icon-180.png">
+<link rel="apple-touch-icon" sizes="152x152" href="../icon-152.png">
+<link rel="apple-touch-icon" sizes="120x120" href="../icon-120.png">
+<link rel="apple-touch-icon" sizes="76x76" href="../icon-76.png">
+
+<link rel="icon" type="image/png" sizes="32x32" href="../favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../favicon-16.png">
+
+</head>
+<body>
+
+<div class="header-bar video-page">
+  <a href="../index.html">← Übersicht</a>
+  <div class="title">2022_Janos_Best_of</div>
+  <noscript>
+    <span style="color: #cc0000; font-size: 0.7em; font-weight: bold; border: 1px solid #cc0000; padding: 2px 5px; border-radius: 4px; margin-left: 5px; white-space: nowrap;">
+      ⚠️ Java Script inaktiv: Steuerung/Ton mglw. limitiert
+    </span>
+  </noscript>
+  
+  <a class="spa-link" href="2022_Janos_Best_of_thumbs.html" title="Galerie oben">🖼</a><a class="spa-link" href="2022_Janos_Best_of_thumbs.html" title="Galerie Position wie Video">Bilder</a>
+  <a href="../index.html#2022_Janos_Best_of">↺ Zurück zum Video</a>
+</div>
+
+<div id="video-wrapper">
+    <video id="player" controls playsinline loop poster="2022_Janos_Best_of.jpg" data-timeline='{"0.000":"2015-04-23-11-33-54","5.000":"2015-04-23-11-35-54","10.000":"2015-04-23-21-33-54","15.000":"2015-05-26-11-31-52","20.000":"2015-05-26-11-32-48","25.000":"2015-05-26-18-46-58","30.000":"2015-05-29-15-51-02","35.000":"2015-09-20-19-45-38","40.000":"2015-09-20-20-22-49","45.000":"2015-09-22-09-27-10","50.000":"2015-09-30-11-14-50","55.000":"2015-10-26-14-54-07","60.000":"2016-04-02-12-37-37","65.000":"2016-05-10-21-00-48","70.000":"2016-05-23-16-29-11","75.000":"2016-05-30-07-11-05","80.000":"2016-08-27-12-53-28","85.000":"2016-12-01-15-36-43","90.000":"2017-04-24-07-32-44","95.000":"2017-05-06-09-15-06","100.000":"2017-05-13-10-23-55","105.000":"2017-11-04-08-54-47","110.000":"2017-11-04-08-55-36-1","115.000":"2017-12-29-14-51-31","120.000":"2018-02-10-14-44-18","125.000":"2018-02-18-09-00-30-1","130.000":"2018-04-23-12-03-53","135.000":"2018-05-23-15-17-39","140.000":"2018-05-24-10-26-05","145.000":"2018-05-24-16-18-56","150.000":"2018-05-24-16-20-24","155.000":"2018-05-24-16-49-28","160.000":"2018-05-26-10-51-44","165.000":"2018-11-17-14-28-17","170.000":"2018-11-17-14-34-31","175.000":"2018-11-17-14-34-41","180.000":"2018-12-25-17-56-27","185.000":"2019-01-19-14-37-03","190.000":"2019-03-24-12-14-20","195.000":"2019-05-05-10-21-01","200.000":"2019-05-07-18-36-52","205.000":"2019-05-24-09-30-29","210.000":"2019-05-26-09-36-47","215.000":"2019-10-02-09-52-45","220.000":"2019-10-13-16-58-34","225.000":"2019-11-24-07-37-29","230.000":"2020-06-05-16-24-45","235.000":"2020-09-28-15-36-39","240.000":"2020-10-02-14-52-55","245.000":"2021-01-11-08-37-09","250.000":"2021-10-24-08-35-31","255.000":"2022-05-27-15-58-32","260.000":"2022-10-06-08-09-17","265.000":"Janos-Abschied-Original"}' data-timeline-chapters='{"0.000":"2015-04-23-11-33-54"}'>
+        <source src="2022_Janos_Best_of.mp4" type="video/mp4">
+    </video>
+
+    <button id="toggle-chapters" title="Kapitel anzeigen (verschiebbar)">
+        <svg viewBox="0 0 24 24"><path d="M3 13h2v-2H3v2zm0 4h2v-2H3v2zm0-8h2V7H3v2zm4 4h14v-2H7v2zm0 4h14v-2H7v2zM7 7v2h14V7H7z"/></svg>
+    </button>
+
+    <nav id="chapter-nav" class="hidden"></nav>
+</div>
+
+<div id="thumbs-overlay">
+    <button id="close-overlay" title="Galerie schließen">&times;</button>
+    <div id="thumbs-content-target"></div>
+</div>
+
+<script src="../video.js"></script>
+
+</body>
+</html>

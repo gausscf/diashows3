@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="Hundevideos WebApp">
+<title>2009_Buscher</title>
+
+<link rel="stylesheet" href="../style.css">
+<link rel="manifest" href="../manifest.json">
+
+<link rel="apple-touch-icon" sizes="180x180" href="../icon-180.png">
+<link rel="apple-touch-icon" sizes="152x152" href="../icon-152.png">
+<link rel="apple-touch-icon" sizes="120x120" href="../icon-120.png">
+<link rel="apple-touch-icon" sizes="76x76" href="../icon-76.png">
+
+<link rel="icon" type="image/png" sizes="32x32" href="../favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../favicon-16.png">
+
+</head>
+<body>
+
+<div class="header-bar video-page">
+  <a href="../index.html">← Übersicht</a>
+  <div class="title">2009_Buscher</div>
+  <noscript>
+    <span style="color: #cc0000; font-size: 0.7em; font-weight: bold; border: 1px solid #cc0000; padding: 2px 5px; border-radius: 4px; margin-left: 5px; white-space: nowrap;">
+      ⚠️ Java Script inaktiv: Steuerung/Ton mglw. limitiert
+    </span>
+  </noscript>
+  
+  <a class="spa-link" href="2009_Buscher_thumbs.html" title="Galerie oben">🖼</a><a class="spa-link" href="2009_Buscher_thumbs.html" title="Galerie Position wie Video">Bilder</a>
+  <a href="../index.html#2009_Buscher">↺ Zurück zum Video</a>
+</div>
+
+<div id="video-wrapper">
+    <video id="player" controls playsinline loop poster="2009_Buscher.jpg" data-timeline='{"0.000":"aaa_DzAzSkK_E400_0145","5.000":"DwVmZaV_Nikon_0019","10.000":"DwXyXoM_Nikon_0025","15.000":"DxAuZzH_Nikon_0012","20.000":"DxAzXvM_Nikon_0014","25.000":"DyAdKjR_Nikon_1263","30.000":"DyAdLrA_Nikon_1270","35.000":"DyFbVjE_Nikon_0046","40.000":"DyFgXlZ_Nikon_0061","45.000":"DzAzSfR_E400_0100","50.000":"DzAzSgX_E400_0112","55.000":"DzAzSkK_E400_0145","60.000":"DzAzStD_E400_0167","65.000":"DzAzStE_E400_0169","70.000":"DzAzStK_E400_0174","75.000":"DzEbDgL_E400_0331","80.000":"DzEyYzR_E400_0365","85.000":"DzGyKjG_E400_0377","90.000":"DzOaXuK_E400_0989","95.000":"DzOfSzF_E400_1153","100.000":"DzOqJdT_E400_1280","105.000":"DzOrEwX_E400_1321","110.000":"DzPxTkG_E400_1458","115.000":"EaXaKgD_E400_2298","120.000":"EaYeCkH_E400_2470","125.000":"EbGwDhZ_E400_2580","130.000":"EbGwEbV_E400_2604","135.000":"EbGwEhW_E400_2616","140.000":"EbVlXrN_E400_2714","145.000":"EcGaDqV_E400_2912","150.000":"EcGaDqV_E400_2913","155.000":"EcLnKoB_E400_3320","160.000":"EcLnLeJ_E400_3329","165.000":"EdGiOgN_E400_3649","170.000":"EdGiOgQ_E400_3653","175.000":"EdGiPeI_E400_3680","180.000":"EdJeFaP_E400_3683","185.000":"EdJeFaR_E400_3685","190.000":"EdJeFaT_E400_3686","195.000":"EdKgInU_E400_3693","200.000":"EdKgUcG_E400_3724","205.000":"EdLlDsY_E400_3806","210.000":"EdLlDxM_E400_3812","215.000":"EdLlDzX_E400_3814"}' data-timeline-chapters='{"0.000":"aaa_DzAzSkK_E400_0145"}'>
+        <source src="2009_Buscher.mp4" type="video/mp4">
+    </video>
+
+    <button id="toggle-chapters" title="Kapitel anzeigen (verschiebbar)">
+        <svg viewBox="0 0 24 24"><path d="M3 13h2v-2H3v2zm0 4h2v-2H3v2zm0-8h2V7H3v2zm4 4h14v-2H7v2zm0 4h14v-2H7v2zM7 7v2h14V7H7z"/></svg>
+    </button>
+
+    <nav id="chapter-nav" class="hidden"></nav>
+</div>
+
+<div id="thumbs-overlay">
+    <button id="close-overlay" title="Galerie schließen">&times;</button>
+    <div id="thumbs-content-target"></div>
+</div>
+
+<script src="../video.js"></script>
+
+</body>
+</html>

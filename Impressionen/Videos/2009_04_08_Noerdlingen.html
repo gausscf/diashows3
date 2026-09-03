@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="Impressionen WebApp">
+<title>2009_04_08_Noerdlingen</title>
+
+<link rel="stylesheet" href="../style.css">
+<link rel="manifest" href="../manifest.json">
+
+<link rel="apple-touch-icon" sizes="180x180" href="../icon-180.png">
+<link rel="apple-touch-icon" sizes="152x152" href="../icon-152.png">
+<link rel="apple-touch-icon" sizes="120x120" href="../icon-120.png">
+<link rel="apple-touch-icon" sizes="76x76" href="../icon-76.png">
+
+<link rel="icon" type="image/png" sizes="32x32" href="../favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../favicon-16.png">
+
+</head>
+<body>
+
+<div class="header-bar video-page">
+  <a href="../index.html">← Übersicht</a>
+  <div class="title">2009_04_08_Noerdlingen</div>
+  <noscript>
+    <span style="color: #cc0000; font-size: 0.7em; font-weight: bold; border: 1px solid #cc0000; padding: 2px 5px; border-radius: 4px; margin-left: 5px; white-space: nowrap;">
+      ⚠️ Java Script inaktiv: Steuerung/Ton mglw. limitiert
+    </span>
+  </noscript>
+  
+  <a class="spa-link" href="2009_04_08_Noerdlingen_thumbs.html" title="Galerie oben">🖼</a><a class="spa-link" href="2009_04_08_Noerdlingen_thumbs.html" title="Galerie Position wie Video">Bilder</a>
+  <a href="../index.html#2009_04_08_Noerdlingen">↺ Zurück zum Video</a>
+</div>
+
+<div id="video-wrapper">
+    <video id="player" controls playsinline loop poster="2009_04_08_Noerdlingen.jpg" data-timeline='{"0.000":"IMG_2840","5.000":"IMG_2841","10.000":"IMG_2842","15.000":"IMG_2843","20.000":"IMG_2846","25.000":"IMG_2847","30.000":"IMG_2848","35.000":"IMG_2850","40.000":"IMG_2851","45.000":"IMG_2852","50.000":"IMG_2854","55.000":"IMG_2855","60.000":"IMG_2856","65.000":"IMG_2860","70.000":"IMG_2862","75.000":"IMG_2866","80.000":"IMG_2867","85.000":"IMG_2868","90.000":"IMG_2870","95.000":"IMG_2871","100.000":"IMG_2872","105.000":"IMG_2873","110.000":"IMG_2874","115.000":"IMG_2876","120.000":"IMG_2877","125.000":"IMG_2880","130.000":"IMG_2887","135.000":"IMG_2891","140.000":"IMG_2893","145.000":"IMG_2894","150.000":"IMG_2895","155.000":"IMG_2898","160.000":"IMG_2899","165.000":"IMG_2900","170.000":"IMG_2902","175.000":"IMG_2905","180.000":"IMG_2907","185.000":"IMG_2910","190.000":"IMG_2912","195.000":"IMG_2915","200.000":"IMG_2920"}' data-timeline-chapters='{"0.000":"IMG_2840"}'>
+        <source src="2009_04_08_Noerdlingen.mp4" type="video/mp4">
+    </video>
+
+    <button id="toggle-chapters" title="Kapitel anzeigen (verschiebbar)">
+        <svg viewBox="0 0 24 24"><path d="M3 13h2v-2H3v2zm0 4h2v-2H3v2zm0-8h2V7H3v2zm4 4h14v-2H7v2zm0 4h14v-2H7v2zM7 7v2h14V7H7z"/></svg>
+    </button>
+
+    <nav id="chapter-nav" class="hidden"></nav>
+</div>
+
+<div id="thumbs-overlay">
+    <button id="close-overlay" title="Galerie schließen">&times;</button>
+    <div id="thumbs-content-target"></div>
+</div>
+
+<script src="../video.js"></script>
+
+</body>
+</html>

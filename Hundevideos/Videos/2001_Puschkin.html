@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="Hundevideos WebApp">
+<title>2001_Puschkin</title>
+
+<link rel="stylesheet" href="../style.css">
+<link rel="manifest" href="../manifest.json">
+
+<link rel="apple-touch-icon" sizes="180x180" href="../icon-180.png">
+<link rel="apple-touch-icon" sizes="152x152" href="../icon-152.png">
+<link rel="apple-touch-icon" sizes="120x120" href="../icon-120.png">
+<link rel="apple-touch-icon" sizes="76x76" href="../icon-76.png">
+
+<link rel="icon" type="image/png" sizes="32x32" href="../favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../favicon-16.png">
+
+</head>
+<body>
+
+<div class="header-bar video-page">
+  <a href="../index.html">← Übersicht</a>
+  <div class="title">2001_Puschkin</div>
+  <noscript>
+    <span style="color: #cc0000; font-size: 0.7em; font-weight: bold; border: 1px solid #cc0000; padding: 2px 5px; border-radius: 4px; margin-left: 5px; white-space: nowrap;">
+      ⚠️ Java Script inaktiv: Steuerung/Ton mglw. limitiert
+    </span>
+  </noscript>
+  
+  <a class="spa-link" href="2001_Puschkin_thumbs.html" title="Galerie oben">🖼</a><a class="spa-link" href="2001_Puschkin_thumbs.html" title="Galerie Position wie Video">Bilder</a>
+  <a href="../index.html#2001_Puschkin">↺ Zurück zum Video</a>
+</div>
+
+<div id="video-wrapper">
+    <video id="player" controls playsinline loop poster="2001_Puschkin.jpg" data-timeline='{"0.000":"aaa_Puschkin_008","5.000":"IMG_3259","10.000":"IMG_3260","15.000":"IMG_3269","20.000":"IMG_3272","25.000":"IMG_3275","30.000":"IMG_3278","35.000":"IMG_3281","40.000":"IMG_3286","45.000":"LrS_E50_4007","50.000":"LuA_E50_4010","55.000":"LwI_E50_4013","60.000":"LyQ_E50_4016","65.000":"MaY_E50_4019","70.000":"MdG_E50_4022","75.000":"MfO_E50_4025","80.000":"MhW_E50_4028","85.000":"MkE_E50_4031","90.000":"MmM_E50_4036","95.000":"MoU_E50_4039","100.000":"MrC_E50_4042","105.000":"MtK_E50_4045","110.000":"MvS_E50_4048","115.000":"Puschkin_003","120.000":"Puschkin_004","125.000":"Puschkin_005","130.000":"Puschkin_006","135.000":"Puschkin_007","140.000":"Puschkin_008","145.000":"Puschkin_009","150.000":"Puschkin_010","155.000":"Puschkin_011","160.000":"Puschkin_012","165.000":"Puschkin_022","170.000":"Puschkin_027","175.000":"TfW_E50_4265","180.000":"TiE_E50_4268","185.000":"TkM_E50_4273"}' data-timeline-chapters='{"0.000":"aaa_Puschkin_008"}'>
+        <source src="2001_Puschkin.mp4" type="video/mp4">
+    </video>
+
+    <button id="toggle-chapters" title="Kapitel anzeigen (verschiebbar)">
+        <svg viewBox="0 0 24 24"><path d="M3 13h2v-2H3v2zm0 4h2v-2H3v2zm0-8h2V7H3v2zm4 4h14v-2H7v2zm0 4h14v-2H7v2zM7 7v2h14V7H7z"/></svg>
+    </button>
+
+    <nav id="chapter-nav" class="hidden"></nav>
+</div>
+
+<div id="thumbs-overlay">
+    <button id="close-overlay" title="Galerie schließen">&times;</button>
+    <div id="thumbs-content-target"></div>
+</div>
+
+<script src="../video.js"></script>
+
+</body>
+</html>

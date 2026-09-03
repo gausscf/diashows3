@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="Impressionen WebApp">
+<title>2008_06_06_Paris</title>
+
+<link rel="stylesheet" href="../style.css">
+<link rel="manifest" href="../manifest.json">
+
+<link rel="apple-touch-icon" sizes="180x180" href="../icon-180.png">
+<link rel="apple-touch-icon" sizes="152x152" href="../icon-152.png">
+<link rel="apple-touch-icon" sizes="120x120" href="../icon-120.png">
+<link rel="apple-touch-icon" sizes="76x76" href="../icon-76.png">
+
+<link rel="icon" type="image/png" sizes="32x32" href="../favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../favicon-16.png">
+
+</head>
+<body>
+
+<div class="header-bar video-page">
+  <a href="../index.html">← Übersicht</a>
+  <div class="title">2008_06_06_Paris</div>
+  <noscript>
+    <span style="color: #cc0000; font-size: 0.7em; font-weight: bold; border: 1px solid #cc0000; padding: 2px 5px; border-radius: 4px; margin-left: 5px; white-space: nowrap;">
+      ⚠️ Java Script inaktiv: Steuerung/Ton mglw. limitiert
+    </span>
+  </noscript>
+  
+  <a class="spa-link" href="2008_06_06_Paris_thumbs.html" title="Galerie oben">🖼</a><a class="spa-link" href="2008_06_06_Paris_thumbs.html" title="Galerie Position wie Video">Bilder</a>
+  <a href="../index.html#2008_06_06_Paris">↺ Zurück zum Video</a>
+</div>
+
+<div id="video-wrapper">
+    <video id="player" controls playsinline loop poster="2008_06_06_Paris.jpg" data-timeline='{"0.000":"IMG_1609","5.000":"IMG_1612","10.000":"IMG_1613","15.000":"IMG_1614","20.000":"IMG_1617","25.000":"IMG_1618","30.000":"IMG_1620","35.000":"IMG_1621","40.000":"IMG_1623","45.000":"IMG_1625","50.000":"IMG_1628","55.000":"IMG_1631","60.000":"IMG_1632","65.000":"IMG_1633","70.000":"IMG_1634","75.000":"IMG_1635","80.000":"IMG_1636","85.000":"IMG_1637","90.000":"IMG_1638","95.000":"IMG_1639","100.000":"IMG_1640","105.000":"IMG_1641","110.000":"IMG_1643","115.000":"IMG_1644","120.000":"IMG_1650","125.000":"IMG_1652","130.000":"IMG_1653","135.000":"IMG_1654","140.000":"IMG_1655","145.000":"IMG_1656","150.000":"IMG_1660","155.000":"IMG_1662","160.000":"IMG_1665","165.000":"IMG_1666","170.000":"IMG_1670","175.000":"IMG_1672","180.000":"IMG_1673","185.000":"IMG_1675","190.000":"IMG_1676","195.000":"IMG_1678","200.000":"IMG_1680","205.000":"IMG_1682","210.000":"IMG_1683","215.000":"IMG_1686","220.000":"IMG_1688","225.000":"IMG_1689","230.000":"IMG_1691","235.000":"IMG_1692","240.000":"IMG_1693","245.000":"IMG_1694","250.000":"IMG_1696","255.000":"IMG_1703","260.000":"IMG_1704","265.000":"IMG_1707","270.000":"IMG_1709","275.000":"IMG_1710","280.000":"IMG_1712","285.000":"IMG_1716","290.000":"IMG_1717","295.000":"IMG_1718","300.000":"IMG_1719","305.000":"IMG_1720","310.000":"IMG_1722","315.000":"IMG_1723","320.000":"IMG_1728","325.000":"IMG_1729","330.000":"IMG_1732","335.000":"IMG_1733","340.000":"IMG_1735","345.000":"IMG_1738","350.000":"IMG_1741","355.000":"IMG_1743","360.000":"IMG_1745","365.000":"IMG_1749","370.000":"IMG_1751","375.000":"IMG_1754","380.000":"IMG_1755","385.000":"IMG_1757","390.000":"IMG_1759","395.000":"IMG_1762"}' data-timeline-chapters='{"0.000":"IMG_1609"}'>
+        <source src="2008_06_06_Paris.mp4" type="video/mp4">
+    </video>
+
+    <button id="toggle-chapters" title="Kapitel anzeigen (verschiebbar)">
+        <svg viewBox="0 0 24 24"><path d="M3 13h2v-2H3v2zm0 4h2v-2H3v2zm0-8h2V7H3v2zm4 4h14v-2H7v2zm0 4h14v-2H7v2zM7 7v2h14V7H7z"/></svg>
+    </button>
+
+    <nav id="chapter-nav" class="hidden"></nav>
+</div>
+
+<div id="thumbs-overlay">
+    <button id="close-overlay" title="Galerie schließen">&times;</button>
+    <div id="thumbs-content-target"></div>
+</div>
+
+<script src="../video.js"></script>
+
+</body>
+</html>

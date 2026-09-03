@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="Impressionen WebApp">
+<title>2005_03_Winter</title>
+
+<link rel="stylesheet" href="../style.css">
+<link rel="manifest" href="../manifest.json">
+
+<link rel="apple-touch-icon" sizes="180x180" href="../icon-180.png">
+<link rel="apple-touch-icon" sizes="152x152" href="../icon-152.png">
+<link rel="apple-touch-icon" sizes="120x120" href="../icon-120.png">
+<link rel="apple-touch-icon" sizes="76x76" href="../icon-76.png">
+
+<link rel="icon" type="image/png" sizes="32x32" href="../favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../favicon-16.png">
+
+</head>
+<body>
+
+<div class="header-bar video-page">
+  <a href="../index.html">← Übersicht</a>
+  <div class="title">2005_03_Winter</div>
+  <noscript>
+    <span style="color: #cc0000; font-size: 0.7em; font-weight: bold; border: 1px solid #cc0000; padding: 2px 5px; border-radius: 4px; margin-left: 5px; white-space: nowrap;">
+      ⚠️ Java Script inaktiv: Steuerung/Ton mglw. limitiert
+    </span>
+  </noscript>
+  
+  <a class="spa-link" href="2005_03_Winter_thumbs.html" title="Galerie oben">🖼</a><a class="spa-link" href="2005_03_Winter_thumbs.html" title="Galerie Position wie Video">Bilder</a>
+  <a href="../index.html#2005_03_Winter">↺ Zurück zum Video</a>
+</div>
+
+<div id="video-wrapper">
+    <video id="player" controls playsinline loop poster="2005_03_Winter.jpg" data-timeline='{"0.000":"aaa_FtInQ_Nikon_0021","5.000":"FtHuQ_Nikon_0001","10.000":"FtHvS_Nikon_0002","15.000":"FtHvS_Nikon_0333","20.000":"FtHvS_Nikon_0340","25.000":"FtHvS_Nikon_0342","30.000":"FtHvS_Nikon_0343","35.000":"FtHvS_Nikon_0344","40.000":"FtHvS_Nikon_0345","45.000":"FtHwM_Nikon_0003","50.000":"FtHxG_Nikon_0004","55.000":"FtHxV_Nikon_0005","60.000":"FtHyN_Nikon_0006","65.000":"FtHzF_Nikon_0007","70.000":"FtHzT_Nikon_0008","75.000":"FtIaG_Nikon_0009","80.000":"FtIbD_Nikon_0010","85.000":"FtIcX_Nikon_0011","90.000":"FtIdY_Nikon_0012","95.000":"FtIeN_Nikon_0013","100.000":"FtIfG_Nikon_0014","105.000":"FtIfR_Nikon_0015","110.000":"FtIgN_Nikon_0016","115.000":"FtIhL_Nikon_0017","120.000":"FtIiJ_Nikon_0018","125.000":"FtIjH_Nikon_0019","130.000":"FtInE_Nikon_0020","135.000":"FtInQ_Nikon_0021","140.000":"FtIoJ_Nikon_0022","145.000":"FtIpB_Nikon_0023","150.000":"FtIpK_Nikon_0024","155.000":"FtIqB_Nikon_0025","160.000":"FtIsK_Nikon_0026","165.000":"FtJbQ_Nikon_0027","170.000":"FtJcH_Nikon_0028","175.000":"FtJdB_Nikon_0029","180.000":"FtJdW_Nikon_0030","185.000":"LpMpO_E50_9970"}' data-timeline-chapters='{"0.000":"aaa_FtInQ_Nikon_0021"}'>
+        <source src="2005_03_Winter.mp4" type="video/mp4">
+    </video>
+
+    <button id="toggle-chapters" title="Kapitel anzeigen (verschiebbar)">
+        <svg viewBox="0 0 24 24"><path d="M3 13h2v-2H3v2zm0 4h2v-2H3v2zm0-8h2V7H3v2zm4 4h14v-2H7v2zm0 4h14v-2H7v2zM7 7v2h14V7H7z"/></svg>
+    </button>
+
+    <nav id="chapter-nav" class="hidden"></nav>
+</div>
+
+<div id="thumbs-overlay">
+    <button id="close-overlay" title="Galerie schließen">&times;</button>
+    <div id="thumbs-content-target"></div>
+</div>
+
+<script src="../video.js"></script>
+
+</body>
+</html>
